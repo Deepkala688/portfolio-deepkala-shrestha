@@ -1,129 +1,313 @@
-*{
-	background-color: lightgrey;
+body {
+  background: #000030;
+  margin: 0;
+  padding: 0;
 }
 
-#name{
- 
-  background-color: darkgrey;
-  padding: 7px;
-  margin-top: 30px;
-  text-align: center;
-}
-
-#sidebar{
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 300px;
-  height: 500px;
-  margin-bottom: -500px;
-  margin-top: 60px;
-  margin-left: 60px;
-  background-color: white;
-}
-
-#sidebar * {
-    background-color: transparent;
-}
-
-#girl{
-  width: 250px;
-  height: 250px;
-  margin-top: 60px;
-  margin-left: 25px;
-  border-radius: 10px;
-  background-color: white;
-}
-
-#sideabout{
-  margin-top: 100px;
+#home{
   padding: 10px;
-}
-
-#sideprojects{
-  padding: 10px;
-}
-
-#sideskills{
-  padding: 10px;
-}
-
-#sidecontact{
-  padding: 10px;
-}
-
-#about{
-  border: 2px solid black; 
-  text-align: center;
-  border-radius: 15px;
-  width: 300px;
-  height: 150px;
-  margin-left: 500px;
-}
-
-#projects{
-  border: 2px solid black; 
-  text-align: center;
-  border-radius: 15px;
-  width: 500px;
-  height: 350px;
-  margin-top: -100px;
-  margin-left: 900px;
-}
-
-#skills{
-  border: 2px solid black; 
-  border-radius: 15px;
-  width: 300px;
-  height: 150px;
-  margin-top: -210px;
-  margin-left: 500px;
-}
-
-#skills1{
-	text-align: center;
-}
-
-#contact{
-  border: 2px solid black; 
-  border-radius: 15px;
-  text-align: center;
-  width: 300px;
-  height: 100px;
-  margin-top: 40px;
-  margin-left: 500px;
-}
-
-.box {
-    background-color: white;
-}
-
-.box * {
-    background-color: transparent;
-}
-
-#student{
-  text-align: center;
-}
-
-#footer{
-  margin-left: 65px;
-}
-
-.btn {
-  background-color: lightgrey;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background-color: beige;
   color: white;
 }
 
-#app{
-  margin-top: 120px;
-  
+#about{
+  padding: 10px;
+  color: white;
 }
+
+#skill{
+  padding: 10px;
+  color: white;
+}
+
+#project{
+  padding: 10px;
+  color: white;
+}
+
+#contact{
+  padding: 10px;
+  color: white;
+}
+
+#footer{
+  color: white;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+#navmenu{
+  float: right;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+#navmenu a{
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#portfolio{
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 20mm;
+  color: white;
+}
+
+#home{
+  width: 90%;
+  border: 1px solid #1a2a6c;
+  background: #1a2a6c;
+  border-radius: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+#name{
+  background-color: #1a2a6c;
+  color: white;
+  margin-top: 160px;
+  font-size: 15mm;
+}
+
+#student{
+  background-color: #1a2a6c;
+  color: white;
+  font-style: italic;
+  font-size: 10mm;
+}
+
+#about{
+  width: 90%;
+  border: 1px solid #1a2a6c;
+  background: #1a2a6c;
+  border-radius: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+#para1{
+  background-color: #1a2a6c;
+  margin-top: 160px;
+  font-size: 7mm;
+}
+
+#project{
+  width: 90%;
+  border: 1px solid #1a2a6c;
+  background: #1a2a6c;
+  border-radius: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+#projectt{
+  background-color: #1a2a6c;
+  font-size: 10mm;
+}
+
+#weather{
+  background-color: white;
+  color: black;
+  border: 1px solid #000030;
+  width: 40%;
+  border-radius: 20px;
+  height: 350px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+#treasure{
+  background-color: white;
+  color: black;
+  border: 1px solid #000030;
+  width: 40%;
+  border-radius: 20px;
+  float: right;
+  margin-top: -350px;
+  height: 350px;
+  margin-right: 70px;
+}
+
+#image1{
+  margin-top: 40px;
+}
+
+#image2{
+  margin-top: 40px;
+}
+
+#skill{
+  width: 90%;
+  border: 1px solid #1a2a6c;
+  background: #1a2a6c;
+  border-radius: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+#html{
+  background-color: #1a2a6c;
+  width: 8%;
+  height: 110px;
+  margin-left: 280px;
+  margin-top: 130px;
+}
+
+#css{
+  background-color: #1a2a6c;
+  width: 8%;
+  height: 110px;
+  margin-left: 520px;
+  margin-top: -110px;
+}
+
+#c{
+  background-color: #1a2a6c;
+  width: 8%;
+  height: 110px;
+  margin-left: 770px;
+  margin-top: -110px;
+}
+
+#java{
+  background-color: #1a2a6c;
+  width: 8%;
+  height: 110px;
+  margin-left: 1000px;
+  margin-top: -110px;
+}
+
+#skilll{
+  background-color: #1a2a6c;
+  font-size: 10mm;
+}
+
+#htmlimg, #cssimg, #cimg, #javaimg{
+  width: 100%;
+  height: 110px;
+}
+
+#contact{
+  width: 90%;
+  border: 1px solid #1a2a6c;
+  background: #1a2a6c;
+  border-radius: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+#contactt{
+  background-color: #1a2a6c;
+  font-size: 10mm;
+}
+
+#form{
+  width: 28%;
+  border: 1px solid white;
+  background: #1a2a6c;
+  border-radius: 20px;
+  margin-left: 480px;
+  margin-top: 60px;
+  height: 300px;
+  text-align: center;
+}
+
+.nameform{
+  margin-top: 50px;
+}
+
+#input{
+  padding: 10px;
+  background-color: #1a2a6c;
+}
+
+.text, .email, .number{
+  color: black;
+  background-color: white;
+}
+
+#btn{
+  background-color: #1a2a6c;
+  margin-top: 30px;
+}
+
+#submit{
+  color: black;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer; 
+  transition: 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #219ebc;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 50, 0.6);
+  z-index: -1;
+}
+
+/* Hide toggle button on desktop */
+#menu-toggle {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #navmenu {
+    display: none;
+    flex-direction: column;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  #navmenu.show {
+    display: flex;
+  }
+}
+
+
+
+
+

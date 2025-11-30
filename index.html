@@ -4,52 +4,105 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Your Name — Portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<link rel="stylesheet" type="text/css" href="style.css">
+
 <body>
+  <video id="bg-video" autoplay loop muted playsinline>
+      <source src="https://media.istockphoto.com/id/1406396867/video/ideas-inspiration-light-bulb-creativity-spirituality.mp4?s=mp4-640x640-is&k=20&c=tsAIKCpsFXGxsm9MTlOfTtgBf4r1qr0V2Tb2ubAwFWg=" type="video/mp4"> 
+  </video>
+
+  <!-- Overlay -->
+  <div id="overlay"></div>
+
+  <audio id="click-sound" src="https://www.fesliyanstudios.com/play-mp3/387" preload="auto"></audio>
+
   <header id="sidebar">
-    <h1 id="name"><U>Deepkala Shrestha</U></h1>
-    <h3 id="student"><I>Student</h3>
-    <nav>
-      <img src="https://watermark.lovepik.com/photo/20220316/large/lovepik-professional-business-woman-elite-image-picture_502367423.jpg" id="girl">
+    <button id="menu-toggle">☰</button>
+    <nav id="navmenu">
+     <a href="#home">Home</a>
+     <a href="#about">About</a>
+     <a href="#skill">Skill</a>
+     <a href="#project">Project</a>
+     <a href="#contact">Contact</a>
     </nav>
+    <h1 id="portfolio"><i>Portfolio</i></h1>
   </header>
-    <section id="about" class="box">
-      <h2>About</h2>
-      <p>Hi, I am Deepkala Shrestha. I am currently studying Full Stack Development course.</p>
-    </section>
-      
-    <section id="projects" class="box">
-      <h2>Projects</h2>
-        <h3><U> <button class="btn">Weather App</button></h3></U>
-        <p>I made a weather app that showed the current temperature, humidity, pressure and air direction of any city.</p>
-        <p><strong>Language:</strong> HTML, CSS, JavaScript</p>
 
-        <h3><U> <button class="btn"><a href = #app>Treasure Hunt Game</a></button></h3></U>
-        <p>I made a treasure hunt game where you could move around environment to search treasure.</p>
-        <p><strong>Language:</strong> C#</p>
-    </section>
-    
-    <section id="skills" class="box">
-      <h2 id="skills1">Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>C#</li>
-        <li>JavaScript</li>
-      </ul>
-    </section>
-    
-    <section id="contact" class="box">
-      <h2>Contact</h2>
-      <p>Email:deepikashrestha955@gmail.com</p>
-    </section>
+  <section id="home">
+    <h1 id="name">Deepkala Shrestha</h1>
+    <h1 id="student">Student</h1>
+  </section>
 
-    <section id="app">
-      <img src="C:\Users\LENOVO\OneDrive\Pictures\Screenshots\Screenshot (76).png">
-   </section>
-   <footer id="footer">
-    <p>© <span id="year">2025 -</span> Deepkala Shrestha | LinkedIn </p>
-   </footer>
+  <section id="about">
+    <p id="para1">
+      Hi, I am Deepkala Shrestha. I am currently studying Full Stack Development course.
+      I study in Herald College Kathmandu located in Naxal,Kathmandu.
+    </p>
+  </section>
+
+  <section id="project">
+    <h2 id="projectt">Projects</h2>
+
+    <div id="weather">
+      <br>Weather App<br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoBWYufUWkqngjRbB6wDwVNHh7N4TIX52W7g&s" id="image1">
+      <br><br>
+      I made a weather app that shows current temperature, humidity, pressure and air
+      direction of any city.
+      <br>
+      Language- HTML, CSS, JavaScript
+    </div>
+
+    <div id="treasure">
+      <br>Treasure Hunt Game<br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi89HE6lzPPImiumoTuqfxht8dMNN1YKz1iA&s" id="image2">
+      <br><br>
+      I made a treasure hunt game where you could move around environment to search treasure.
+      <br>
+      Language- C#
+    </div>
+  </section>
+
+  <section id="skill">
+    <h2 id="skilll">Skill</h2>
+
+    <li id="html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png?20170517184425" id="htmlimg">HTML</li>
+
+    <li id="css"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png" id="cssimg">CSS</li>
+
+    <li id="c"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/384px-Logo_C_sharp.svg.png?20221121173824" id="cimg">C#</li>
+
+    <li id="java"><img src="https://images.seeklogo.com/logo-png/25/1/javascript-logo-png_seeklogo-255387.png" id="javaimg">JavaScript</li>
+  </section>
+
+  <section id="contact">
+    <h2 id="contactt">Contact</h2>
+
+    <div id="form">
+      <div id="input" class="nameform">
+        Name : <input type="text" placeholder="enter your name" class="text">
+      </div>
+
+      <div id="input">
+        E-mail : <input type="email" placeholder="enter your email" class="email">
+      </div>
+
+      <div id="input">
+        Phone : <input type="number" placeholder="enter your number" class="number">
+      </div>
+
+      <div id="btn">
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+  <p id="footer">© 2025 - Deepkala Shrestha | LinkedIn </p>
+
 </body>
+
+<script src="script.js"></script>
 </html>
